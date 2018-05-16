@@ -22,7 +22,7 @@ redis     3.2.8
 
 mysql的配置在 back-end/config/db-config.js 中配置
 
-使用rsql.sql 将测试数据导入到本地的mysql中，并确保当前mysql中不存在已有的 storagemanage 数据库
+使用sql.sql 将测试数据导入到本地的mysql中，并确保当前mysql中不存在已有的 storagemanage 数据库
 
 保持本地 localhost:3000 与 localhost:8080 通常不被占用 localhost:3000 作为api服务器，localhost:8080 作为前端页面服务器
 
